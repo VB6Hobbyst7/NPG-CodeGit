@@ -1,0 +1,1 @@
+<Boolean:IsNumeric> = (Asc(<String>) >= 48 And Asc(<String>) <= 57)

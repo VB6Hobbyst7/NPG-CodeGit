@@ -1,0 +1,1 @@
+<Integer:LastMonthInQuarter> = Int((Month(<Date>) - 1) / 3) * 3 + 3

@@ -1,0 +1,1 @@
+<String:FilePath> = Left(strFullPath, InStrRev(strFullPath, "\"))

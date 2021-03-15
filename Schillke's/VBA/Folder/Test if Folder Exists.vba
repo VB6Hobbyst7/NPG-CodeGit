@@ -1,0 +1,1 @@
+<Boolean:FolderExists> = ((GetAttr(<String:Folder>) And vbDirectory) = vbDirectory)

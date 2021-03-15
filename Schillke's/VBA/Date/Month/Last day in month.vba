@@ -1,0 +1,1 @@
+<Date:LastDayInMonth> = DateSerial(Year(<Date>), Month(<Date>) + 1, 0)

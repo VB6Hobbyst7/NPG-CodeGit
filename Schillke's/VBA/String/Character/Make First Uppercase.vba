@@ -1,0 +1,1 @@
+<String:FirstCharUCased> = IIf(Len(<String>) > 0, UCase(Left(<String>, 1)) & Mid(<String>, 2), "")

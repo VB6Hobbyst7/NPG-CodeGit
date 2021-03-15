@@ -1,0 +1,2 @@
+<ToolTipText:Determines if a date is in a leap year><HelpUrl:http://codevba.com/office/year_date_functions.htm>
+<Boolean:IsLeapYear> = ((Year(<Date>) Mod 4 = 0) And (Year(<Date>) Mod 100 <> 0)) Or (Year(<Date>) Mod 400 = 0)

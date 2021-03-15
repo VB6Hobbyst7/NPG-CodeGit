@@ -1,0 +1,1 @@
+<Date:FirstDayInMonth> = DateSerial(Year(<Date>), Month(<Date>), 1)

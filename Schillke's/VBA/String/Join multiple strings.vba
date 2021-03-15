@@ -1,0 +1,1 @@
+<String> = Join(Array("string1", "string2", "another string"),";")

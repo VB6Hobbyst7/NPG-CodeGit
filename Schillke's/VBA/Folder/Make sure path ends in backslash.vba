@@ -1,0 +1,1 @@
+If Right(<String:Folder>, 1) <> "\" Then <String:Folder> = <String:Folder> & "\"

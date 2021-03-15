@@ -1,0 +1,1 @@
+<String:FileName> = Right(<String:FullPath>, Len(<String:FullPath>) - InStrRev(<String:FullPath>, "\"))

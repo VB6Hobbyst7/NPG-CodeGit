@@ -1,0 +1,2 @@
+Set <Worksheet> = <Workbook>.Worksheets.Add(After:=<Workbook>.Worksheets(<Workbook>.Worksheets.Count), Type:=-4167) 'xlWorksheet
+'Set <Worksheet> = <Workbook>.Worksheets.Add(, <Workbook>.Worksheets(<Workbook>.Worksheets.Count), , -4167) 'xlWorksheet

@@ -1,0 +1,57 @@
+dsquery group -name NCI-MGR | dsget group -members | dsget user -samid -fn -ln > NCI-MGR.csv
+dsquery group -name NCI-EPG1 | dsget group -members | dsget user -samid -fn -ln > NCI-EPG1.csv
+dsquery group -name NCI-EPG1 | dsget group -members | dsget user -samid -fn -ln > NCI-EPG2.csv
+dsquery group -name NCI-EPG1 | dsget group -members | dsget user -samid -fn -ln > NCI-EPG3.csv
+dsquery group -name NCI-EPG1 | dsget group -members | dsget user -samid -fn -ln > NCI-EPG4.csv
+dsquery group -name NCI-Staff | dsget group -members | dsget user -samid -fn -ln > NCI-Staff.csv
+dsquery group -name NCI-SALES | dsget group -members | dsget user -samid -fn -ln > NCI-SALES.csv
+
+
+dsquery group -name  | dsget group -members | dsget user -samid > id.csv
+dsquery group -name  | dsget group -members | dsget user -fn > fn.csv
+dsquery group -name  | dsget group -members | dsget user -ln > ls.csv
+
+NCI EPC Projects
+NCI-Projects
+USERS-NCI
+NCI-Dept
+NCI-Staff-
+NCI-SALES-
+NCI-MGR
+NCI-EPG1
+NCI-EPG2
+NCI-EPG3
+NCI-EPG4
+WHQ_NPG_Common_WRITE
+
+dsquery group -name USERS-NCI | dsget group -members | dsget user -samid > USERS-NCIsamid.csv
+dsquery group -name USERS-NCI | dsget group -members | dsget user -fn > USERS-NCIfn.csv
+dsquery group -name USERS-NCI | dsget group -members | dsget user -ln > USERS-NCILS.csv
+dsquery group -name USERS-NCI | dsget group -members | dsget user -samid -fn -ln > USERS-NCI.csv
+
+dsquery group -name NCI-Projects | dsget group -members | dsget user -samid > NCI-ProjectsID.csv
+dsquery group -name NCI-Projects | dsget group -members | dsget user -fn > NCI-Projectsfn.csv
+dsquery group -name NCI-Projects | dsget group -members | dsget user -ln > NCI-ProjectsLS.csv
+dsquery group -name NCI-Projects | dsget group -members | dsget user -samid -fn -ln > NCI-Projects.csv
+
+dsquery group -name NCI-Dept | dsget group -members | dsget user -samid > NCI-Deptid.csv
+dsquery group -name NCI-Dept | dsget group -members | dsget user -fn > NCI-Deptfn.csv
+dsquery group -name NCI-Dept | dsget group -members | dsget user -ln > NCI-Deptls.csv
+dsquery group -name NCI-Dept | dsget group -members | dsget user -samid -fn -ln > NCI-Dept.csv
+
+dsquery group -name "NCI EPC Projects" | dsget group -members | dsget user -samid > NCIEPCProjectsid.csv
+dsquery group -name "NCI EPC Projects" | dsget group -members | dsget user -fn > NCIEPCProjectsfn.csv
+dsquery group -name "NCI EPC Projects" | dsget group -members | dsget user -ln > NCIEPCProjectsls.csv
+dsquery group -name "NCI EPC Projects" | dsget group -members | dsget user -samid -fn -ln > NCI EPC Projects.csv
+
+dsquery group -name NCI-Staff | dsget group -members | dsget user -samid > NCI-Staffid.csv
+dsquery group -name NCI-Staff | dsget group -members | dsget user -fn > NCI-StafffFn.csv
+dsquery group -name NCI-Staff | dsget group -members | dsget user -ln > NCI-Staffls.csv
+dsquery group -name NCI-Staff | dsget group -members | dsget user -samid -fn -ln > NCI-Staff.csv
+
+dsquery group -name WHQ_NPG_Common_WRITE | dsget group -members | dsget user -samid > WHQ_NPG_Common_WRITEid.csv
+dsquery group -name WHQ_NPG_Common_WRITE | dsget group -members | dsget user -fn > WHQ_NPG_Common_WRITEfn.csv
+dsquery group -name WHQ_NPG_Common_WRITE | dsget group -members | dsget user -ln > WHQ_NPG_Common_WRITEls.csv
+
+Navistar Proving Grounds 
+32104 State Road 2, New Carlisle IN 46552

@@ -1,0 +1,1 @@
+<Boolean:IsArrayEmpty> = Len(Join(<Array>, "")) = 0 'insert array variable at cursor position

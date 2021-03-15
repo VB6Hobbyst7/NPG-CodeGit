@@ -1,0 +1,1 @@
+Dim strInternationalDecimalSeparator As String: strInternationalDecimalSeparator = Right(Left(1.1, 2), 1)

@@ -1,0 +1,1 @@
+<Date:FirstDayInWeek> = <Date> - Weekday(<Date>, vbUseSystemDayOfWeek) + 1

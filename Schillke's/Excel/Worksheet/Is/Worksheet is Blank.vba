@@ -1,0 +1,1 @@
+<Application.>WorksheetFunction.CountA(<Worksheet>.UsedRange.Cells) = 0

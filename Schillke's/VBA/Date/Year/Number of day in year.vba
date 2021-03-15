@@ -1,0 +1,1 @@
+<Integer:DayNumber> = DateDiff("d",CDate("1/1/" & Year(<Date>)),<Date>) + 1

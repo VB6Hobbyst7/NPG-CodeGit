@@ -1,0 +1,1 @@
+<Date:FirstDayInYear> = DateSerial(Year(<Date>), 1, 1)

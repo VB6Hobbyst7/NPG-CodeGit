@@ -1,0 +1,1 @@
+<Boolean:FileExists> = (Dir(<String:FileName>) <> "")

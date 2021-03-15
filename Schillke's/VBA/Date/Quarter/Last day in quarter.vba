@@ -1,0 +1,1 @@
+<Date:LastDayInQuarter> = DateSerial(Year(<Date>), Int((Month(<Date>) - 1) / 3) * 3 + 4, 0)
