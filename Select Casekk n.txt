@@ -1,0 +1,11 @@
+Select Case n
+    Case Is < 10
+        'Do if n is less than 10
+        
+    Case Is < 20
+        'Do if n is less than 20
+        
+    Case Else
+        'Do if n is not less than 20
+        
+End Select

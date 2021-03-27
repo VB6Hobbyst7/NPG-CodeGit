@@ -1,0 +1,11 @@
+Select Case n
+    Case 1 To 10
+        'Do if n is between 1 and 10
+        
+    Case 11 To 20
+        'Do if n is between 11 and 20
+        
+    Case Else
+        'Do if n is not between 1 and 20
+        
+End Select
